@@ -49,6 +49,7 @@
         <li><a href="10.html">10.html</a></li>
         <li><a href="11.html">11.html</a></li>
         <li><a href="12.html">12.html</a></li>
+        <li><a href="JSTLtest.jsp">JSTLtest</a></li>
     </ol>
 
 </div>
@@ -64,8 +65,8 @@
 
 
 <%
-    out.println("欢迎大家来看我的个人播客。" + "<br>");
-    out.println("Your IP address is " + request.getRemoteAddr() + "<br>");
+    //out.println("欢迎大家来看我的个人播客。" + "<br>");
+    //out.println("Your IP address is " + request.getRemoteAddr() + "<br>");
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
     String s = sdf.format(new Date());
 %>
