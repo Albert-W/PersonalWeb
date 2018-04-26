@@ -1,0 +1,28 @@
+h1{
+    font-size: 30px;
+    color: rebeccapurple;
+    font-weight:bold;
+}
+h2{
+    color: yellowgreen;
+}
+.value{
+    font-size:18px;
+    color: crimson;
+    font-weight: normal;
+}
+.address{
+    font-style: italic;
+}
+
+#name{
+    font-size:16px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+value:hover{
+    color:red;
+}
+a:hover{
+    color:red;
+}

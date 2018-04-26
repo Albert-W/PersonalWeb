@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>流动模式下的块状元素</title>
+    <style type="text/css">
+        #box1{
+            width:300px;
+            height:100px;
+        }
+        div,h1,p{
+            border:1px solid red;
+        }
+    </style>
+    <script type="text/javascript">
+//        alert("这是head中内嵌的JS") //这是弹窗
+        document.write("这是head中内嵌的JS");
+    </script>
+</head>
+<body>
+<div id="box2">box2</div><!--块状元素，由于没有设置宽度，宽度默认显示为100%-->
+<h1>标题</h1><!--块状元素，由于没有设置宽度，宽度默认显示为100%-->
+<p>文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段文本段。</p><!--块状元素，由于没有设置宽度，宽度默认显示为100%-->
+
+<div id="box1">box1</div><!--块状元素，由于设置了width:300px，宽度显示为300px-->
+<div>
+    <a href="http://www.imooc.com">www.imooc.com</a><span>强调</span><em>重点</em>
+    <strong>强调</strong>
+</div>
+
+<div>
+    <script src="j1.js"></script>
+</div>
+
+<a href="01.jsp">返回目录</a>
+</body>
+
+</html>
