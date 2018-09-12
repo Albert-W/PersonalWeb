@@ -1,0 +1,15 @@
+body {
+  background-color: $blue;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font: sans-serif;
+}
+
+body {
+  margin-top: 60px;
+}
